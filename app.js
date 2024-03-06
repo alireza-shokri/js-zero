@@ -20,7 +20,8 @@ img.addEventListener('click',my);
 input.addEventListener('keyup',chang)
 
 function my(){
-    inputvalue=.toLowerCase(input.value)
+    inputvalue= input.value
+    inputvalue=inputvalue.toLowerCase()
     allsity=all[inputvalue]
 
     if(allsity==undefined)
