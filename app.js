@@ -1,7 +1,7 @@
 var all={
-tabriz:{naem:'whather in tabriz',dgree:'9*C',wether:'../project/svg/ice.png',humidity: "5*",windspeed:'15*'},
-tahran:{naem:'whather in tahran',dgree:'19*C',wether:'../project/svg/rainy.png',humidity: "12*",windspeed:'40*'},
-shiraz:{naem:'whather in shiraz',dgree:'29*C',wether:'../project/svg/suny.png',humidity: "24*",windspeed:'10*'},
+tabriz:{naem:'whather in tabriz',dgree:'9*C',wether:'svg/ice.png',humidity: "5*",windspeed:'15*'},
+tahran:{naem:'whather in tahran',dgree:'19*C',wether:'svg/rainy.png',humidity: "12*",windspeed:'40*'},
+shiraz:{naem:'whather in shiraz',dgree:'29*C',wether:'svg/suny.png',humidity: "24*",windspeed:'10*'},
 }
 
 let $=document
