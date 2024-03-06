@@ -2,3 +2,10 @@
     box-sizing: border-box;
     background-color: red;
 }
+h1{
+    background-color: red;
+    color: blue;
+}
+body{
+    background-color: wheat;
+}
