@@ -43,10 +43,13 @@ document.getElementById('text').onkeydown=function(event){
 }
 
 function chang(){
-    if(input.value==0)
+    inputvalue= input.value
+    inputvalue=inputvalue.toLowerCase()
+    allsity=all[inputvalue]
+    if(inputvalue==0)
         iconimg.style.background= 'rgb(134, 170, 165)';
     
-    else if(all[input.value].toLowerCase() )
+    else if(allsity)
         iconimg.style.background='green';
     else {
       iconimg.style.background='red';
