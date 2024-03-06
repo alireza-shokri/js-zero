@@ -46,7 +46,7 @@ function chang(){
     if(input.value==0)
         iconimg.style.background= 'rgb(134, 170, 165)';
     
-    else if(all.toLowerCase()[input.value])
+    else if(all.[input.value].toLowerCase() )
         iconimg.style.background='green';
     else {
       iconimg.style.background='red';
